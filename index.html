@@ -6,7 +6,6 @@
     <style>
       img {
         width: 200px;
-      
         float: left;
         margin-right: 10px;
       }
@@ -14,14 +13,18 @@
         font-weight: bold;
       }
       table, th, td {
-  border: 2px solid rgb(127, 193, 145);
+        border: 2px solid rgb(127, 193, 145);
       }
-  p {color:blue;}
+      p {color:blue;}
       td {
-  text-align: left;
-}
-
+        text-align: left;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+      }
     </style>
+
   </head>
   <body>
     <img src="images/ur a bred.jpg" />
@@ -29,14 +32,15 @@
     <p>My very first web page :D </p>
    
       
-      <div id="footer" class="intro"><span style class="bottom"> 
+    
       
     <table style="width:100%; margin-top: 100px;">
-      <tr> <colgroup>
+      <colgroup>
         <col span="1" style="width: 30%;">
         <col span="1" style="width: 30%;">
         <col span="1" style="width: 30%;">
-     </colgroup>
+      </colgroup>
+      <tr>
         <th>Recipe</th>
         <th>preview</th>
         <th>ingredients</th>
@@ -44,18 +48,22 @@
       </tr>
       <tr style="height:200px">
         <td>pizza</td>
-        <td><img src="images/piza.jpg"></td> 
+        <td>
+          <div>
+            <img src="images/piza.jpg"/>
+          </div>
+        </td> 
+
         <td> pizza dough, cheese, marinara sauce, toppings</td>
         <td>6 stars</td>
       </tr>
       <tr style="height:200px">
         <td>chiken noodle soup</td>
-        <td><img src="images/piza.jpg"></td>
+        <td><img src="images/piza.jpg"/></td>
         <td>chiken, noodle, borsh, water</td>
         <td>5 stars</td>
       </tr>
-    </table>
-  </div>    
+    </table>  
     <p>To understand the example better, we have added borders to the table.</p>
     
     </body>
