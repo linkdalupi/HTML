@@ -1,0 +1,7 @@
+
+TODO for Feb 6th
+- upload to aws our current local version
+- from main page be able to go to a recipe page (from the recipe table)
+- upload again latest version
+- update site blog about checkbox
+- also update about syncing local version webpage to public internet.
