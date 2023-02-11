@@ -1,3 +1,14 @@
+TODO for Feb 12th
+- we need to add dynamic behavior to our website
+- we want the smallest increment of functionality
+- lambda function
+    input - list of ingredients
+    output - a recipe that is in the system and uses only the specified ingredients
+- simple solution
+    lambda can output one recipe always that is not in the database
+
+
+
 
 TODO for Feb 6th
 - upload to aws our current local version
