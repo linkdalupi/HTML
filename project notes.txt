@@ -1,4 +1,4 @@
-TODO for Feb 12th
+TODO for Feb 12th 
 - we need to add dynamic behavior to our website
 - we want the smallest increment of functionality
 - lambda function
@@ -16,3 +16,13 @@ TODO for Feb 6th
 - upload again latest version
 - update site blog about checkbox
 - also update about syncing local version webpage to public internet.
+
+TODO  for Mar 19th
+- understand react: how is it different than static html, how to create a component
+- create a react component for the ingredients table and use it in my-app
+
+Next steps
+- make the API be dynamic based on the selected ingredients, but the recipes are still in the code
+- make it read data from database instead of lambda code
+- upload recipes
+- make it pretty
